@@ -19,6 +19,13 @@ export default function Home() {
         <Link href="/calendar">
           Calendar
         </Link>
+        <Link href="/DailyDiary">
+          Daily Diary
+        </Link>
+        <a href="/api/auth/login">
+          Login
+        </a>
+        
       </main>
     </>
   )
