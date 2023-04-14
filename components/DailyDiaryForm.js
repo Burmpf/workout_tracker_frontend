@@ -147,11 +147,7 @@ const DailyDiaryForm = () => {
                     </Button>
                 </Form.Group>
             ))}
-    
-            <Button variant="primary" onClick={addWorkout}>
-                Add Workout
-            </Button>
-    
+            
             <Button variant="primary" onClick={addWorkout}>
             Add Workout
         </Button>
