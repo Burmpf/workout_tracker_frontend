@@ -30,12 +30,12 @@ export default function Home() {
             >
               Calendar
             </Link>
-            <Link
-              className=" text-center w-1/2 mb-2 rounded-md text-sm outline outline-offset-0 outline-purple-500"
-              href="/DailyDiary"
-            >
+            
+              <a className=" text-center w-1/2 mb-2 rounded-md text-sm outline outline-offset-0 outline-purple-500"
+              href="/DailyDiary">
               Daily Diary
-            </Link>
+              </a>
+            {/*  </Link> */}
             <a
               className=" text-center w-1/2 mb-2 rounded-md text-sm outline outline-offset-0 outline-purple-500"
               href="/api/auth/logout"
